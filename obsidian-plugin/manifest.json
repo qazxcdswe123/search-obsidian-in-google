@@ -1,0 +1,10 @@
+{
+	"id": "search-obsidian-in-google",
+	"name": "Search Obsidian in Google",
+	"version": "1.0.0",
+	"minAppVersion": "0.12.0",
+	"description": "A simple plugin to search the current note in Google (or other search engines).",
+	"author": "YuNing Chen",
+	"authorUrl": "https://blog.ynchen.me",
+	"isDesktopOnly": true
+}
