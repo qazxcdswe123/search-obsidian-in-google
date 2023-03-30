@@ -1,0 +1,7 @@
+div.omnisearch-http-settings div.api-key pre {
+    font-size: 0.8em;
+    padding: 10px 20px;
+    background-color: var(--background-modifier-cover);
+    font-family: monospace;
+    user-select: text;
+}
