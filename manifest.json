@@ -5,6 +5,6 @@
 	"minAppVersion": "0.12.0",
 	"description": "A simple plugin to search the current note in Google (or other search engines).",
 	"author": "YuNing Chen",
-	"authorUrl": "https://github.com/qazxcdswe123/search-obsidian-in-google",
+	"authorUrl": "https://blog.ynchen.me",
 	"isDesktopOnly": true
 }
