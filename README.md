@@ -9,6 +9,16 @@ This is a simple plugin that allows you to search Obsidian in Google.
 3. Install [Search Obsidian in Google](https://github.com/qazxcdswe123/search-obsidian-in-google) plugin in Obsidian.
 4. Configure the plugin in Obsidian, set the port number, authentication token, and the vault name in the Chrome extension.
 
+### Configuration
+- Port: The port number of the local REST API between Obsidian and Chrome extension. Default is `27080`.
+
+### Install manually
+Since the plugin is still under [review](https://github.com/obsidianmd/obsidian-releases/pull/1823), you can install it manually.
+1. Download the latest release from [here](https://github.com/qazxcdswe123/search-obsidian-in-google/releases/tag/1.0.0)
+2. Open the plugin folder in Obsidian, create a folder named `search-obsidian-in-google` and put the `main.js`, `manifest.json`, and `index.css` in it.
+3. Install [Chrome extension](https://chrome.google.com/webstore/detail/search-obsidian-in-google/dkefnggaipjamcbnjdlapgilhlaikbme) in Chrome, configure it properly.
+4. Install [OmniSearch](https://github.com/scambier/obsidian-omnisearch) plugin in Obsidian, configure the plugin as you like.
+
 ## Demo
 ![demo1](assets/img/demo1.jpg)
 ![demo2](assets/img/demo2.jpg)
