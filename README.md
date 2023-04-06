@@ -10,7 +10,12 @@ This is a simple plugin that allows you to search Obsidian in Google.
 4. Configure the plugin in Obsidian, set the port number, authentication token, and the vault name in the Chrome extension.
 
 ### Configuration
-- Port: The port number of the local REST API between Obsidian and Chrome extension. Default is `27080`.
+- Obsidian Plugin
+  - Port: The port number of the local REST API between Obsidian and Chrome extension. Default is `27080`.
+- Chrome Extension
+  - Local Port: This should match the port number in Obsidian plugin.
+  - Token: The authentication token between Obsidian and Chrome extension. You can find it in Obsidian plugin settings page.
+  - Vault Name (Optional): Used when you want to click the search result to open the file in Obsidian. You can find the name by clicking the vault icon in the bottom left corner of Obsidian.
 
 ### Install manually
 Since the plugin is still under [review](https://github.com/obsidianmd/obsidian-releases/pull/1823), you can install it manually.
