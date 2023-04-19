@@ -1,18 +1,9 @@
-import { App, Plugin, PluginSettingTab, Setting, Notice } from "obsidian";
 import * as http from "http";
+import { App, Notice, Plugin, PluginSettingTab, Setting } from "obsidian";
 
+import { DEFAULT_SETTINGS, HOSTNAME } from "./constants";
 import RequestHandler from "./requestHandler";
 import { OmnisearchHttpSettings } from "./types";
-import { DEFAULT_SETTINGS, HOSTNAME, PLUGIN_NAME } from "./constants";
-
-declare module "obsidian" {
-	interface App {
-		plugins: {
-			isEnabled: (pluginId: string) => boolean;
-			disablePlugin: (pluginId: string) => void;
-		};
-	}
-}
 
 export default class OmnisearchHttp extends Plugin {
 	settings: OmnisearchHttpSettings;
@@ -20,9 +11,8 @@ export default class OmnisearchHttp extends Plugin {
 	requestHandler: RequestHandler;
 
 	async onload() {
-		if (!this.app.plugins.isEnabled("omnisearch")) {
-			new Notice("Omnisearch HTTP requires Omnisearch to be enabled.");
-			this.app.plugins.disablePlugin(PLUGIN_NAME);
+		if (!window.omnisearch) {
+			new Notice("Omnisearch Not Found. Install Omnisearch first", 10000);
 			return;
 		}
 
