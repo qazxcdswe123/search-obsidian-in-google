@@ -95,6 +95,12 @@ class OmnisearchHttpSettingsTab extends PluginSettingTab {
 			text: "Authorization: Bearer " + this.plugin.settings.apiKey,
 		});
 
+		const seeMore = apiKeyDiv.createEl("p");
+		seeMore.createEl("a", {
+			href: "https://chrome.google.com/webstore/detail/search-obsidian-in-google/dkefnggaipjamcbnjdlapgilhlaikbme",
+			text: "- You also need to install this Chrome extension to use this plugin."
+		});
+
 		new Setting(containerEl)
 			.setName("Port")
 			.setDesc("The port to listen on.")
