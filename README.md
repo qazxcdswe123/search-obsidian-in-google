@@ -1,9 +1,15 @@
 # Search Obsidian in Google
 
 ## What is this?
-This is a simple plugin that allows you to search Obsidian in Google.
+A simple plugin that allows you to search Obsidian in Google.
 
-## How to use
+- Features:
+  - Include excerpt in search result
+  - Fuzzy match
+  - Quick open in obsidian
+
+## How to use?
+### Quick Start
 1. Install [Chrome extension](https://chrome.google.com/webstore/detail/search-obsidian-in-google/dkefnggaipjamcbnjdlapgilhlaikbme) in Chrome. ([GitHub](https://github.com/qazxcdswe123/search-obsidian-browser-extension))
 2. Install [Obsidian Omnisearch](https://github.com/scambier/obsidian-omnisearch) plugin in Obsidian, configure the plugin as you like.
 3. Install [Search Obsidian in Google](https://github.com/qazxcdswe123/search-obsidian-in-google) plugin in Obsidian. You can now install directly from obsidian plugin store.
@@ -29,6 +35,11 @@ This is a simple plugin that allows you to search Obsidian in Google.
 ## Demo
 ![demo1](assets/img/demo1.jpg)
 ![demo2](assets/img/demo2.jpg)
+
+## Troubleshooting
+- Check if omnisearch plugin is installed and configured properly.
+- Check if the port number and token are configured in chrome extension.
+- Check if omnisearch plugin produce the correct result.
 
 ## Credits
 - [Omnisearch](https://github.com/scambier/obsidian-omnisearch)
