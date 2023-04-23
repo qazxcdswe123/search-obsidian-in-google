@@ -39,9 +39,9 @@ A simple plugin that allows you to search Obsidian in Google.
 ![demo2](assets/img/demo2.jpg)
 
 ## Troubleshooting
-- Check if omnisearch plugin is installed and configured properly.
-- Check if the port number and token are configured in chrome extension.
-- Check if omnisearch plugin produce the correct result.
+- Check if `omnisearch` and `search obsidian in google` are installed in Obsidian and configured properly.
+- Check if the port number and token are set in chrome extension.
+- Check if `omnisearch` plugin in Obsidian produce the correct result.
 
 ## Credits
 - [Omnisearch](https://github.com/scambier/obsidian-omnisearch)
