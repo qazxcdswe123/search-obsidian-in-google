@@ -18,6 +18,7 @@ A simple plugin that allows you to search Obsidian in Google.
 5. Set the port number, authentication token, and the vault name in the Chrome extension.
 
 - Hint: you can **click the search result** to open the file in Obsidian! This requires you to set the vault name in the Chrome extension. It is recommended to check `Always allow www.google.com to open links of this type in the associated app` in the popup window.
+- Note that `Local Rest API` plugin is not required.
 
 ### Configuration
 - Obsidian Plugin
