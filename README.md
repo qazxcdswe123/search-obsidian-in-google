@@ -6,8 +6,10 @@ A simple plugin that allows you to search Obsidian in Google.
 - Features:
   - Include excerpt in search result
   - Fuzzy match
+  - Scored result
   - Quick open in obsidian
-  - All browser support (Chrome, Firefox, Edge, Brave etc. Except Safari sorry)
+
+- Currently only Chrome is confirmed to work. Firefox is under review (help wanted). Brave is not supported.
 
 ## How to use?
 ### Quick Start
