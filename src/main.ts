@@ -1,5 +1,6 @@
 import * as http from "http";
 import { App, Notice, Plugin, PluginSettingTab, Setting } from "obsidian";
+import { setTimeout } from "timers/promises";
 
 import { DEFAULT_SETTINGS, HOSTNAME } from "./constants";
 import RequestHandler from "./requestHandler";
@@ -11,6 +12,9 @@ export default class OmnisearchHttp extends Plugin {
 	requestHandler: RequestHandler;
 
 	async onload() {
+		// start after omnisearch
+		await setTimeout(5000);
+
 		if (!window.omnisearch) {
 			new Notice("Omnisearch Not Found. Install Omnisearch first", 10000);
 			return;
@@ -98,7 +102,7 @@ class OmnisearchHttpSettingsTab extends PluginSettingTab {
 		const seeMore = apiKeyDiv.createEl("p");
 		seeMore.createEl("a", {
 			href: "https://chrome.google.com/webstore/detail/search-obsidian-in-google/dkefnggaipjamcbnjdlapgilhlaikbme",
-			text: "- You also need to install this Chrome extension to use this plugin."
+			text: "- You also need to install this Chrome extension to use this plugin.",
 		});
 
 		new Setting(containerEl)
