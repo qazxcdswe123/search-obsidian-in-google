@@ -38,6 +38,8 @@ A simple plugin that allows you to search Obsidian in Google.
 ## Demo
 ![demo1](assets/img/demo1.jpg)
 ![demo2](assets/img/demo2.jpg)
+![demo3](https://github.com/qazxcdswe123/search-obsidian-in-google/assets/29861494/97011979-7840-455c-8c92-0272d46ffe96)
+
 
 ## Known Issues
 - Currently only Chrome is confirmed to work. Firefox is under review (help wanted). Brave is not supported ([Issue](https://github.com/qazxcdswe123/search-obsidian-in-google/issues/2), [Brave Issue](https://github.com/brave/brave-browser/issues/27346)).
