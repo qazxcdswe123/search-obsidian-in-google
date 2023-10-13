@@ -1,3 +1,7 @@
+Omnisearch now has HTTP server search injector built in, this repo is left as is.
+
+___
+
 # Search Obsidian in Google
 
 ## What is this?
